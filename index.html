@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Cheat Sheet</h1>
+        <p>Ever have trouble recalling the exact syntac for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Flexbox Row</h2>
+            <p class="description">Use these three properties to create a flexbox row layout.</p>
+            <div class="code">
+                <pre>
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Flexbox Column</h2>
+            <p class="description">Use this to create a Flexbox column layout.</p>
+            <div class="code">
+                <pre>
+.column {
+    display: flex;
+    flex-direction: column;
+}
+                </pre>
+            </div>
+        </div>
+        <div class="card">
+            <h2>CSS Grid Layout</h2>
+            <p class="description">Build a 12-column layout using CSS Grid</p>
+            <div class="code">
+                <pre>
+.gris {
+    display: grid;
+    width: 100%;
+    grid-template-columns:
+repeat(12, 1fr);
+}
+                </pre>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Made with love and CSS
+    </footer>
+</body>
+</html>
